@@ -1,0 +1,91 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-image: url();                
+    background-size: cover; 
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-color: bisque;
+}
+nav{
+    max-width: 700px;
+    margin: auto;
+    background-color: rgb(136, 209, 228);
+    font-size: 25px;
+    margin-top: 20px;
+}
+.Menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.Menu-vertical > li > a{
+    display: block;
+padding: 15px 20px;
+color: rgb(0, 0, 0);
+text-decoration: none;
+border: solid;
+border-color: rgb(136, 209, 228);
+
+}
+.Menu-horizontal > li:hover{
+    background-color: crimson;
+}
+.Menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(red, green, blue, alpha);    
+}
+.Menu-horizontal li:hover .Menu-vertical{
+    display: block; 
+}
+.Menu-vertical li:hover{
+    background-color: rgb(253, 253, 253);
+}
+.Menu-vertical li a{
+    display: block;
+    color: rgb(0, 204, 255);
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+}
+h1, p{
+    text-shadow: 0cap;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   }
+h2, p{
+text-align: center;
+font-family: 'Times New Roman', Times, serif';
+}
+ul, li, b{
+    font-weight: 300px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+img {
+  margin: auto;
+  display: flex;
+  border-radius: 20%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 15%;
+
+}
+.contenedor {
+background-color: rgb(red green blue / alpha);
+border: 2px solid; 
+border-radius: 30px;
+padding: 20px;
+color: ;
+width: 800px;
+margin: auto;
+
+}
